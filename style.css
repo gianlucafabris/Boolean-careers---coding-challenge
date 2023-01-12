@@ -1,0 +1,82 @@
+/* generali */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+/* generali - background e font */
+body{
+  background: #9cc657 url(immagini/background.jpg) no-repeat;
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+}
+/* box semi-trasparente */
+div.container{
+  width: 70%;
+  height: 90%;
+  margin: 1.5% auto;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+/* header nav main centrati */
+header, nav, main{
+    width: 90%;
+    margin: auto;
+}
+header, nav{
+  text-align: center;
+}
+/* header */
+header{
+  padding: 5% 0 0 0;
+}
+header img{
+  width: 25%;
+  max-width: 250px;
+  min-width: 50px;
+}
+header h1{
+  color: #67d942;
+  font-size: 1.5em;
+}
+/* nav */
+nav{
+  padding: 1% 0;
+  background: #67d942;
+}
+nav form{
+  display: inline-block;
+}
+/* main */
+main{
+  padding: 0 0 5% 0;
+}
+main h3{
+  margin: 2.5% 0 0 0;
+}
+main p, main span{
+  font-size: 0.75em;
+}
+main h3:before{
+  content: "\25A0";
+}
+main p:before{
+  content: "\21A6";
+}
+main div{
+  height: 25px;
+  border-radius: 5px;
+}
+main div.alta{
+  width: 50%;
+  background: #67d942;;
+}
+main div.media{
+  width: 30%;
+  background: #EBB664;
+}
+main div.bassa{
+  width: 10%;
+  background: #Af4A46;
+}
